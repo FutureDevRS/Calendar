@@ -1,0 +1,24 @@
+
+
+.calendar-month {
+    background: #d7fefb;
+    background: linear-gradient(45deg, #2bb644 0%, #d7fefb 32%, #2bb644 100%);
+    border: black 5px solid;
+}
+
+.day-grid {
+    background-image: url("/images/march.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.day-grid button{
+    background: #d7fefb;
+    background: linear-gradient(to right, #2bb644 0%, #d7fefb 42%, #2bb644 100%);
+    
+}
+
+.day-grid button:hover {
+    box-shadow: 0px 0px 23px 4px rgba(49,233,255,0.83);
+}
+

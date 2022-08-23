@@ -1,0 +1,24 @@
+
+
+.calendar-month {
+    background: #ff9500;
+    background: linear-gradient(45deg, #ff9500 0%, #ffdd00 32%, #ffca3a 100%);
+    border: black 5px solid;
+}
+
+.day-grid {
+    background-image: url("/images/november.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.day-grid button{
+    background: #ff9500;
+    background: linear-gradient(to right, #ff9500 0%, #ffdd00 42%, #ffca3a 100%);
+    
+}
+
+.day-grid button:hover {
+    box-shadow: 0px 0px 23px 4px #ffdd00;
+}
+

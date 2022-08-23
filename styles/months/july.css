@@ -1,0 +1,22 @@
+
+
+.calendar-month {
+    background: #0000ff;
+    background: linear-gradient(45deg, #ff0000 0%, #ffffff 32%, #0000ff 100%);
+    border: black 5px solid;
+}
+
+.day-grid {
+    background-image: url("/images/july.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.day-grid button{
+    background: linear-gradient(to right, #ff0000 0%, #ffffff 50%, #0000ff 100%);
+}
+
+.day-grid button:hover {
+    box-shadow: 0px 0px 23px 4px #ff0000;
+}
+

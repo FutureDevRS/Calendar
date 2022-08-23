@@ -1,0 +1,23 @@
+
+
+.calendar-month {
+    background: #1C6EA4;
+    background: linear-gradient(45deg, #1C6EA4 0%, #237684 32%, #0F4A94 100%);
+    border: black 5px solid;
+}
+
+.day-grid {
+    background-image: url("/images/january.jpg");
+    background-repeat: no-repeat;
+}
+
+.day-grid button{
+    background: #1C6EA4;
+    background: linear-gradient(to right, #1C6EA4 0%, #237684 42%, #0D233A 100%);
+    
+}
+
+.day-grid button:hover {
+    box-shadow: 0px 0px 23px 4px rgba(49,233,255,0.83);
+}
+

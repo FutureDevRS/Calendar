@@ -1,0 +1,24 @@
+
+
+.calendar-month {
+    background: #f48c06;
+    background: linear-gradient(45deg, #f48c06 0%, #dc2f02 32%, #d00000 100%);
+    border: black 5px solid;
+}
+
+.day-grid {
+    background-image: url("/images/september.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.day-grid button{
+    background: #f48c06;
+    background: linear-gradient(to right, #f48c06 0%, #dc2f02 42%, #d00000 100%);
+    
+}
+
+.day-grid button:hover {
+    box-shadow: 0px 0px 23px 4px #f48c06;
+}
+

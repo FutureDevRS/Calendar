@@ -1,0 +1,24 @@
+
+
+.calendar-month {
+    background: #f224a4;
+    background: linear-gradient(45deg, #f224a4 0%, #aa00ff 32%, #05cdf2 100%);
+    border: black 5px solid;
+}
+
+.day-grid {
+    background-image: url("/images/may-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.day-grid button{
+    background: #f224a4;
+    background: linear-gradient(to right, #f224a4 0%, #aa00ff 42%, #05cdf2 100%);
+    
+}
+
+.day-grid button:hover {
+    box-shadow: 0px 0px 23px 4px #aa00ff;
+}
+

@@ -1,0 +1,79 @@
+body {
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.calendar-month {
+  width: 80%;
+  height: 100%;
+  margin-top: 10px;
+}
+
+.calendar-month > .title {
+  width: 100%;
+  height: 75px;
+  border-bottom: black 5px solid;
+  font-size: 50px;
+  letter-spacing: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.calendar-month > .title p {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.calendar-month > .day-of-week {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  height: 60px;
+  border-bottom: 2.5px black solid;
+}
+
+.calendar-month > .day-of-week p {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  font-style: italic;
+}
+
+.day-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  justify-items: center;
+  padding-top: 30px;
+  height: 80%;
+}
+
+.day-grid button {
+  background: #1C6EA4;
+  background: linear-gradient(to right, #1C6EA4 0%, #237684 42%, #0D233A 100%);
+  width: 150px;
+  height: 75px;
+  font-size: 28px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.day-grid button:hover {
+  box-shadow: 0px 0px 23px 4px #fbc6cc;
+  color: white;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.day-grid > .home-btn a {
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+.previous-days {
+  opacity: 0.4;
+}/*# sourceMappingURL=months.css.map */

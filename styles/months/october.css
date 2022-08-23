@@ -1,0 +1,24 @@
+
+
+.calendar-month {
+    background: #e36414;
+    background: linear-gradient(45deg, #0f4c5c 0%, #e36414 32%, #0f4c5c 100%);
+    border: black 5px solid;
+}
+
+.day-grid {
+    background-image: url("/images/october.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.day-grid button{
+    background: #e36414;
+    background: linear-gradient(to right, #0f4c5c 0%, #e36414 42%, #0f4c5c 100%);
+    
+}
+
+.day-grid button:hover {
+    box-shadow: 0px 0px 23px 4px #e36414;
+}
+
